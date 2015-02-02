@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "dev": "grunt dev",
+    "dev": "grunt concurrent:dev",
     "lint": "grunt jshint"
   },
   "dependencies": {
